@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+h1 {
+  margin-bottom: 80px;
+}
+
+textarea {
+  height: 200px;
+  width: 500px;
+  margin: 30px 0;
+  padding: 10px;
+  resize: none;
+}
+
+input {
+  text-align: center;
+}
+
+button {
+  margin: 20px;
+  cursor: pointer;
+}
+
+span {
+  display: block;;
+  min-width: 100px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid #000;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 40px;
+}
